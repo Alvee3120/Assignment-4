@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <!-- Bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- 
+      DO NOT CHANGE HTML TEMPLATE. WORK WITH THE GIVEN STRUCTURE.
+     -->
+    <!-- Main Body -->
+    <main class="row m-0">
+      <!-- img-container left side of the webpage -->
+      <!-- 
+        Change the bg color to any other suitable color using js [TASK]
+
+        NB: Use the same color for all other span tags that needs to be modified.
+       -->
+      <div class="img-container bg-danger col-lg-5 px-5 py-3" id="iits-bg">
+        <div class="header">
+          <!-- Logo  -->
+          <div class="logo fs-3 fw-bold">Portfolio</div>
+        </div>
+        <!-- Image  -->
+        <div class="image">
+          <!-- 
+                Change the img src attribute to any other image using js [TASK]
+             -->
+          <img
+            src="https://images.unsplash.com/photo-1521119989659-a83eee488004?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=723&q=80"
+            alt="Image"
+            class="img-fluid"
+            id="iits-img"
+          />
+        </div>
+        <!-- img-container footer -->
+        <div class="footer lead fw-bold">
+          <!-- 
+                Change the copyright message to any other message using js [TASK]
+             -->
+          &copy; <span id="iits-cr-msg">~(Your copyright message)~</span>
+        </div>
+      </div>
+      <!-- Details container right side of webpage -->
+      <div class="details col-lg-7 px-5 py-3">
+        <!-- Header -->
+        <div class="header d-flex justify-content-end">
+          <!-- 
+            Button color should match the img container bg color [TASK]
+           -->
+          <button class="btn btn-danger" id="iits-btn">Download CV</button>
+        </div>
+        <!-- Main content body -->
+        <div class="main-content">
+          <!-- 
+                Change all the highlighted text to your suitable text using js [TASK]
+
+                For Example:
+                ~(Your name)~ change it to your name using js
+
+                Also if the img-container color is green than all the span tags color will be green using js [TASK]
+             -->
+          <p class="lead">
+            Hi, I am
+            <span class="text-danger" id="iits-name"> ~(Your name)~ </span>
+          </p>
+          <p>
+            I am a
+            <span class="text-danger" id="iits-prof">
+              ~(Your Profession)~
+            </span>
+            based in
+            <span class="text-danger" id="iits-edu">
+              ~(Your Current Level of Education)~
+            </span>
+            studying
+            <span class="text-danger" id="iits-study">
+              ~(Your Field of Study)~
+            </span>
+            at
+            <span class="text-danger" id="iits-school">
+              ~(Your School Name)~
+            </span>
+            <br />
+            I am passionate about
+            <span class="text-danger" id="iits-passion">
+              ~(Your Passion and Interest)~ </span
+            >, and have been pursuing this interest for
+            <span class="text-danger" id="iits-numYears">
+              ~(Number of Years)~ </span
+            >.Throughout my academic journey, I have gained a wide range of
+            skills and experiences that have helped me grow both personally and
+            professionally.
+            <br />
+            In my free time, I enjoy
+            <span class="text-danger" id="iits-hobby">
+              ~(Your Hobbies or Interests)~ </span
+            >, which often inspire me to approach my academic work in creative
+            ways. I am also
+            <span class="text-danger" id="iits-crc">
+              ~(Your Personal Traits or Characteristics)~ </span
+            >, which helps me to
+            <span class="text-danger" id="iits-ability">
+              ~(Your Strengths or Abilities)~ </span
+            >.
+            <br />
+            As I continue to learn and grow, I am excited to explore new
+            opportunities and take on new challenges. I am dedicated to
+            <span class="text-danger" id="iits-goal">
+              ~(Your Goals or Vision)~ </span
+            >, and am always looking for ways to make a positive impact in the
+            world.
+            <br />
+            Thank you for taking the time to visit my portfolio website, and
+            please feel free to contact me via my social media networks or
+            email. I look forward to hearing from you!
+          </p>
+        </div>
+        <!-- Social media links -->
+        <div class="social-links d-flex justify-content-center gap-3 fs-2">
+          <!-- 
+                Change the facebook link to your profile link using js [TASK]
+             -->
+          <a
+            href="https://facebook.com/yourProfile"
+            target="_blank"
+            id="iits-fb-link"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <!-- 
+                Change the email address to your address using js [TASK]
+             -->
+          <a
+            href="mailto:yourmail@gmail.com"
+            class="text-dark"
+            target="_blank"
+            id="iits-email"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+          <!-- 
+                Change the github link to your github link using js [TASK]
+             -->
+          <a
+            href="https://github.com/yourProfile"
+            class="text-dark"
+            target="_blank"
+            id="iits-github-link"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
